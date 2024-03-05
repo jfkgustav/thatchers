@@ -12,17 +12,17 @@
 </script>
 
 
-  <div class="w-full h-screen container overflow-y-scroll grid grid-cols-3 gap-10 p-10">
+  <div class="w-full h-screen container overflow-y-scroll grid sm:grid-cols-3 gap-10 sm:p-10">
   
     
-    <img src={bank}>
-    <img src={sittin}>
-    <img src={midsommar}>
-    <img src={verket}>
-    <img src={klassiker}>
-    <img src={glajjor}>
-    <img src={verysmol}>
-    <img src={linked}>
-    <img src={pistoler}>
+    <img class="drop-shadow-lg" src={bank}>
+    <img class="drop-shadow-lg" src={sittin}>
+    <img class="drop-shadow-lg" src={midsommar}>
+    <img class="drop-shadow-lg" src={verket}>
+    <img class="drop-shadow-lg" src={klassiker}>
+    <img class="drop-shadow-lg" src={glajjor}>
+    <img class="drop-shadow-lg" src={verysmol}>
+    <img class="drop-shadow-lg" src={linked}>
+    <img class="drop-shadow-lg" src={pistoler}>
 
   </div>
