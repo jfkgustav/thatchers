@@ -93,13 +93,28 @@ import "../app.pcss";
         <div>
           <Button builders={[builder]} variant="link" class="font-bold text-xl" href="/about">Om</Button>
         </div>
-        <hr class="my-5">
-        <div class="px-10 text-left">
-          <h2 class="font-bold text-md ">Mail: <a href="mailto:thatchersavar@gmail.com" class="pl-2 text-blue-900">thatchersavar@gmail.com</a></h2>
-          <h2 class="font-bold text-md ">Telefon: <a href="tel:0730204696" class="pl-2 text-blue-900">073 020 46 96</a></h2>
-          <h2 class="font-bold text-md ">Instagram: <a href="https://www.instagram.com/thatchersband" class="pl-2 text-blue-900">@thatchersband</a></h2>
-          <h2 class="font-bold text-md ">Facebook: <a href="https://www.facebook.com/thatchersband" class="pl-2 text-blue-900">Thatchers</a></h2>
+        <hr class="mt-5">
+        <div>
+          <h1 class="font-bold text-xl my-3" >Kontakta oss!</h1>
         </div>
+        <table class="px-10 text-left mx-auto">
+          <tr>
+            <th><h2 class="font-bold text-md ">Mail:</h2></th>
+            <th><a href="mailto:thatchersavar@gmail.com" class="ml-10 text-blue-900">thatchersavar@gmail.com</a></th>
+          </tr>
+          <tr>
+            <th><h2 class="font-bold text-md ">Telefon: </h2>
+            <th><a href="tel:0730204696" class="ml-10 text-blue-900">073 020 46 96</a></th>
+          </tr>
+          <tr>
+            <th><h2 class="font-bold text-md ">Instagram: </h2>
+            <th><a href="https://www.instagram.com/thatchersband" class="ml-10 text-blue-900">@thatchersband</a></th>
+          </tr>
+          <tr>
+            <th><h2 class="font-bold text-md ">Facebook: </h2>
+            <th><a href="https://www.facebook.com/thatchersband" class="ml-10 text-blue-900">Thatchers</a></th>
+          </tr>
+        </table>
       </div>
       </Sheet.Close>
       <Sheet.Footer class="items-center">
