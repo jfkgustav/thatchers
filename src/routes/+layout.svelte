@@ -49,7 +49,7 @@ import "../app.pcss";
         </DropdownMenu.Content>
       </DropdownMenu.Root>
       <div>
-        <Button variant="link" class="font-bold text-xl text-white" href="/about">Om</Button>
+        <Button variant="link" class="font-bold text-xl text-white" href="/merch">Merch</Button>
       </div>
       
     </div>
@@ -91,7 +91,7 @@ import "../app.pcss";
           <Button builders={[builder]} variant="link" class="font-bold text-xl" href="/films">Filmer</Button>
         </div>
         <div>
-          <Button builders={[builder]} variant="link" class="font-bold text-xl" href="/about">Om</Button>
+          <Button builders={[builder]} variant="link" class="font-bold text-xl" href="/merch">Merch</Button>
         </div>
         <hr class="mt-5">
         <div>
