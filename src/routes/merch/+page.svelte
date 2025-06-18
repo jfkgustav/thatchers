@@ -37,25 +37,26 @@
 <div class="container h-screen overflow-y-scroll flex flex-col bg-slate-200 py-8 rounded-lg">
 
   <h1 class="text-4xl font-bold">MERCH</h1>
-  <p class ="text-xl my-4">På denna sida kan du "beställa" merch genom att kika på vad vi har för merch och därefter skriva en beställning i rutan där nere som heter "önskad beställning". Därefter kan du fylla i dina uppgifter och skicka beställningen genom att klicka på "skicka". Då får vi ett mejl och kommer granska beställningen och höra av oss till dig så att vi kan komma överens hur vi gör med frakt och betalning.</p>
+  <p class ="text-xl my-4">På denna sida kan du "beställa" merch genom att kika på vad vi har för merch och därefter skriva en beställning i rutan där nere som heter "önskad beställning". Därefter kan du fylla i dina uppgifter och skicka beställningen genom att klicka på "skicka". Då får vi ett mejl och kommer granska beställningen och höra av oss till dig så att vi kan komma överens hur vi gör med frakt och betalning. Leverans inom Umeå Kommun löser vi själva utifrån överenskommelse och frakt utanför kommunen löser vi med posten om det inte går att lösa på något annat sätt. :)</p>
+  <p>Vi säljer också all vår merch på våra spelningar!</p>
   <p class ="text-xl my-4"> Just nu säljer vi dessa 8 produkter: </p>
   <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
     <div class="flex flex-col mx-auto text-center">
       <img width="200px" src={gray_tshirt}>
       <p>T-shirt grå</p>
-      <p>S, M, L, XL</p>
+      <p>S, M, L, XL, XXL</p>
       <p>250kr</p>
     </div>
     <div class="flex flex-col mx-auto text-center">
       <img width="200px" src={navy_tshirt}>
       <p>T-shirt blå</p>
-      <p>S, M, L, XL</p>
+      <p>S, M, L, XL, XXL</p>
       <p>250kr</p>
     </div>
     <div class="flex flex-col mx-auto text-center">
       <img width="200px" src={black_tshirt}>
       <p>T-shirt svart</p>
-      <p>S, M, L, XL</p>
+      <p>S, M, L, XL, XXL</p>
       <p>250kr</p>
     </div>
     <div class="flex flex-col mx-auto text-center">
@@ -65,7 +66,7 @@
     </div>
     <div class="flex flex-col mx-auto text-center">
       <img width="200px" src={bygg}>
-      <p>Bygg låtar med Thatchers CD</p>
+      <p>Bygg låtar med Thatchers <br hidden class="sm:block" /> CD</p>
       <p>100kr</p>
     </div>
     <div class="flex flex-col mx-auto text-center">
